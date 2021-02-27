@@ -1,9 +1,7 @@
 import React from 'react';
 import { renderRoutes, matchRoutes } from 'react-router-config';
 import { Breadcrumb } from './components';
-/**
- * These are root pages
- */
+
 const Home = ({ location }) => {
   return (
     <div>
@@ -112,6 +110,7 @@ const Electronics = ({ route, location }) => {
 //     </div>
 //   );
 // };
+
 /**
  * These are pages nested in Electronics
  */
