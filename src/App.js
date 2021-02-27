@@ -9,8 +9,7 @@ class App extends Component {
     return (
       <div className="container">
         <Navbar />
-
-        {/* use renderRoutes method here*/}
+        
         {renderRoutes(routes)}
       </div>
     );
